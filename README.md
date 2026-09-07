@@ -1,0 +1,11 @@
+```yaml
+workflows:
+  android-workflow:
+    name: Android Build
+    max_build_duration: 60
+    scripts:
+      - name: Build APK
+        script: |
+          ./gradlew assembleDebug
+    artifacts:
+      - app/build/outputs/apk/debug/app-debug.apk
