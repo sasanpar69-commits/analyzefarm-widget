@@ -1,0 +1,9 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">آنالیز فارم</string>
+    <string name="widget_description">قیمت روز مرغداری</string>
+    <string name="chicken_price">قیمت مرغ زنده</string>
+    <string name="chick_price">قیمت جوجه یکروزه</string>
+    <string name="ad_text">📊 تحلیل تهویه سالن مرغداری\nwww.analyzefarm.ir</string>
+</resources>
