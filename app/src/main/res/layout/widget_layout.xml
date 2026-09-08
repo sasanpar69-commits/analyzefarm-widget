@@ -1,0 +1,54 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/widget_background">
+
+    <TextView
+        android:id="@+id/widgetTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🐔 آنالیز فارم"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/chickenPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/chickPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:padding="2dp" />
+
+    <TextView
+        android:id="@+id/adText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊 تحلیل تهویه سالن مرغداری\nwww.analyzefarm.ir"
+        android:textColor="#FFD700"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:paddingTop="6dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+</LinearLayout>
