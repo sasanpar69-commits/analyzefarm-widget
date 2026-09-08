@@ -1,4 +1,3 @@
-```java
 package com.analyzefarm.widget;
 
 import android.app.Activity;
